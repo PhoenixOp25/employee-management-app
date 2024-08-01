@@ -27,7 +27,7 @@ This is a simple React application for managing employees. It includes features 
 bash:cd employee-management-app
 
 3:Install dependencies:
-bash:Install dependencies:
+bash:npm install
 
 4:Start the application:
 bash:npm start or npm run dev 
