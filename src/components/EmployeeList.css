@@ -1,0 +1,113 @@
+/* EmployeeList.css */
+
+/* Apply background color to the body to cover the entire viewport */
+body {
+    background-color: #f9f9f9; /* Light background color */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    height: 100vh; /* Full height of the viewport */
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    font-family: Arial, sans-serif;
+    color: #333; /* Default text color */
+}
+
+/* Centering container for the entire component */
+.employee-list-container {
+    max-width: 800px;
+    width: 100%;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    text-align: center; /* Center text */
+}
+
+/* Heading style */
+.employee-list-container h1 {
+    color: #333; /* Ensure the heading text is dark and readable */
+    margin-bottom: 20px;
+}
+
+/* List style: no default list style and padding */
+.employee-list-container ul {
+    list-style-type: none;
+    padding: 0;
+    width: 100%;
+    text-align: left; /* Align text to the left */
+}
+
+/* Style for list items */
+.employee-list-container li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+    margin: 10px 0;
+    background-color: #f0f0f0; /* Slightly off-white for contrast */
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* Hover effect for list items */
+.employee-list-container li:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Style for links */
+.employee-list-container a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.2s;
+}
+
+/* Hover effect for links */
+.employee-list-container a:hover {
+    color: #0056b3;
+}
+
+/* Style for buttons */
+.employee-list-container button {
+    background-color: #ff4d4f;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+/* Hover effect for buttons */
+.employee-list-container button:hover {
+    background-color: #ff7875;
+}
+
+/* Style for the 'Add New Employee' link button */
+.employee-list-container .add-employee-button {
+    display: block;
+    width: fit-content;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s, transform 0.2s;
+}
+
+/* Hover effect for the 'Add New Employee' button */
+.employee-list-container .add-employee-button:hover {
+    background-color: #218838;
+    transform: translateY(-2px);
+}

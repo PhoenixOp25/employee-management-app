@@ -1,0 +1,102 @@
+/* Container for the Add Employee form */
+.add-employee-container {
+    max-width: 800px;
+    margin: 0 auto; /* Center horizontally */
+    padding: 20px;
+    background-color: #ffffff; /* Background color of the form */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(243, 238, 238, 0.72);
+    font-family: Arial, sans-serif;
+    box-sizing: border-box; /* Ensure padding and border are included in the width */
+    overflow-y: auto; /* Enable vertical scrolling if needed */
+    max-height: 90vh; /* Limit the height of the container */
+}
+
+/* Ensure body has overflow scroll if needed */
+body {
+    margin: 0;
+    overflow-x: hidden; /* Hide horizontal overflow */
+    overflow-y: auto; /* Allow vertical scrolling */
+}
+
+/* Form styling */
+.add-employee-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Input and select styling */
+.add-employee-container input,
+.add-employee-container select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box; /* Ensure padding and border are included in the width */
+    background-color: #ffffff; /* Ensure background color is white */
+    color: #000000; /* Set text color to black */
+}
+
+/* Label styling */
+.add-employee-container label {
+    display: block; /* Ensure label is displayed as a block element */
+    font-weight: bold; /* Make the text bold */
+    margin-bottom: 5px; /* Space between the label and input field */
+    color: #333; /* Set a color for the text to ensure visibility */
+}
+
+/* Button styling */
+.add-employee-container button {
+    background-color: #28a745; /* Green color for primary button */
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s, transform 0.2s;
+    margin-bottom: 10px; /* Space between buttons */
+}
+
+/* Button hover effect */
+.add-employee-container button:hover {
+    background-color: #218838;
+    transform: translateY(-2px);
+}
+
+/* Remove button styling */
+.add-employee-container .remove-contact-button {
+    background-color: #ff4d4f; /* Red color for remove button */
+}
+
+/* Remove button hover effect */
+.add-employee-container .remove-contact-button:hover {
+    background-color: #ff7875;
+}
+
+/* Contact method section styling */
+.add-employee-container h3 {
+    margin-top: 20px;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+/* Employee ID display styling */
+.add-employee-container .employee-id {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f8f9fa;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Ensure proper spacing between contact method entries */
+.add-employee-container .contact-method {
+    margin-bottom: 15px;
+}
+
+/* Ensure the form container takes full height */
+html, body {
+    height: 100%;
+    margin: 0;
+}

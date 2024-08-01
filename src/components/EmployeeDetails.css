@@ -1,0 +1,41 @@
+/* Container for Employee Details */
+.employee-details-container {
+    max-width: 800px;
+    margin: 20px auto; /* Center horizontally */
+    padding: 20px;
+    background-color: #ffffff; /* Background color of the container */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(243, 238, 238, 0.72);
+    font-family: Arial, sans-serif;
+    box-sizing: border-box; /* Ensure padding and border are included in the width */
+  }
+  
+  /* Heading styling */
+  .employee-details-container h1 {
+    margin-bottom: 20px;
+    color: #333; /* Dark color for the heading */
+  }
+  
+  /* Paragraph styling */
+  .employee-details-container p {
+    margin: 10px 0;
+    font-size: 16px;
+    color: #333; /* Darker color for text to ensure visibility */
+  }
+  
+  /* Styling for contact methods */
+  .employee-details-container .contact-methods {
+    margin-top: 10px;
+  }
+  
+  /* Responsive design for smaller screens */
+  @media (max-width: 600px) {
+    .employee-details-container {
+      padding: 10px;
+    }
+  
+    .employee-details-container p {
+      font-size: 14px;
+    }
+  }
+  
